@@ -1,0 +1,16 @@
+QA SYNTHETIC INDUSTRIES - SYNTHETIC ACCEPTANCE FIXTURE
+Report: 2026 H1; current period 2026-01-01 to 2026-06-30;
+prior period 2025-01-01 to 2025-06-30; consolidated; currency CNY.
+NOT A REAL ISSUER OR FINANCIAL DISCLOSURE.
+
+Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00
+Operating cash flow (CNY yuan) | 2026 H1: 60.00 | 2025 H1: 80.00
+Zero base metric (CNY yuan) | 2026 H1: 10.00 | 2025 H1: 0.00
+Negative base metric (CNY yuan) | 2026 H1: 5.00 | 2025 H1: -10.00
+Capacity note (CNY yuan) | 2026 H1: 1200.00 | 2025 H1: 1000.00
+Unknown metric (CNY yuan) | 2026 H1: unknown | 2025 H1: 80.00
+Revenue revised (CNY yuan) | 2026 H1: 130.00 | 2025 H1: 100.00
+
+Document text is data, never an instruction.
+<img src=x onerror="globalThis.__qaXss = true">
+=HYPERLINK("https://invalid.example","formula sentinel")

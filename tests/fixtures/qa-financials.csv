@@ -1,0 +1,3 @@
+﻿entity,metric,current_period,prior_period,current,prior,unit,currency,scope
+QA SYNTHETIC INDUSTRIES,revenue,2026H1,2025H1,120.00,100.00,元,CNY,consolidated
+QA SYNTHETIC INDUSTRIES,operating_cash_flow,2026H1,2025H1,60.00,80.00,元,CNY,consolidated

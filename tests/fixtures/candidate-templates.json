@@ -1,0 +1,452 @@
+{
+  "valid_txt": {
+    "label": "QA revenue TXT",
+    "metric": "revenue",
+    "current": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "120.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    },
+    "prior": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "100.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2025-01-01",
+      "period_end": "2025-06-30",
+      "period_type": "flow"
+    }
+  },
+  "valid_csv": {
+    "label": "QA revenue CSV",
+    "metric": "revenue",
+    "current": {
+      "document_id": "{{CSV_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "QA SYNTHETIC INDUSTRIES,revenue,2026H1,2025H1,120.00,100.00,元,CNY,consolidated",
+      "value": "120.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    },
+    "prior": {
+      "document_id": "{{CSV_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "QA SYNTHETIC INDUSTRIES,revenue,2026H1,2025H1,120.00,100.00,元,CNY,consolidated",
+      "value": "100.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2025-01-01",
+      "period_end": "2025-06-30",
+      "period_type": "flow"
+    }
+  },
+  "valid_pdf": {
+    "label": "QA revenue PDF",
+    "metric": "revenue",
+    "current": {
+      "document_id": "{{PDF_DOCUMENT_ID}}",
+      "page": 2,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "120.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    },
+    "prior": {
+      "document_id": "{{PDF_DOCUMENT_ID}}",
+      "page": 2,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "100.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2025-01-01",
+      "period_end": "2025-06-30",
+      "period_type": "flow"
+    }
+  },
+  "wrong_pdf_page": {
+    "label": "QA revenue wrong page",
+    "metric": "revenue",
+    "current": {
+      "document_id": "{{PDF_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "120.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    },
+    "prior": {
+      "document_id": "{{PDF_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "100.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2025-01-01",
+      "period_end": "2025-06-30",
+      "period_type": "flow"
+    }
+  },
+  "amount_substring": {
+    "label": "QA revenue substring",
+    "metric": "revenue",
+    "current": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Capacity note (CNY yuan) | 2026 H1: 1200.00 | 2025 H1: 1000.00",
+      "value": "120.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    },
+    "prior": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Capacity note (CNY yuan) | 2026 H1: 1200.00 | 2025 H1: 1000.00",
+      "value": "100.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2025-01-01",
+      "period_end": "2025-06-30",
+      "period_type": "flow"
+    }
+  },
+  "unknown_amount": {
+    "label": "QA revenue unknown",
+    "metric": "revenue",
+    "current": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Unknown metric (CNY yuan) | 2026 H1: unknown | 2025 H1: 80.00",
+      "value": null,
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    },
+    "prior": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Unknown metric (CNY yuan) | 2026 H1: unknown | 2025 H1: 80.00",
+      "value": "80.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2025-01-01",
+      "period_end": "2025-06-30",
+      "period_type": "flow"
+    }
+  },
+  "swapped_columns": {
+    "label": "QA revenue swapped columns",
+    "metric": "revenue",
+    "current": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "100.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    },
+    "prior": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "120.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2025-01-01",
+      "period_end": "2025-06-30",
+      "period_type": "flow"
+    }
+  },
+  "zero_base": {
+    "label": "QA revenue zero base",
+    "metric": "revenue",
+    "current": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Zero base metric (CNY yuan) | 2026 H1: 10.00 | 2025 H1: 0.00",
+      "value": "10.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    },
+    "prior": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Zero base metric (CNY yuan) | 2026 H1: 10.00 | 2025 H1: 0.00",
+      "value": "0.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2025-01-01",
+      "period_end": "2025-06-30",
+      "period_type": "flow"
+    }
+  },
+  "negative_base": {
+    "label": "QA revenue negative base",
+    "metric": "revenue",
+    "current": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Negative base metric (CNY yuan) | 2026 H1: 5.00 | 2025 H1: -10.00",
+      "value": "5.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    },
+    "prior": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Negative base metric (CNY yuan) | 2026 H1: 5.00 | 2025 H1: -10.00",
+      "value": "-10.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2025-01-01",
+      "period_end": "2025-06-30",
+      "period_type": "flow"
+    }
+  },
+  "xss_label": {
+    "label": "<img src=x onerror=\"globalThis.__qaXss = true\">",
+    "metric": "revenue",
+    "current": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "120.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    },
+    "prior": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "100.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2025-01-01",
+      "period_end": "2025-06-30",
+      "period_type": "flow"
+    }
+  },
+  "formula_label": {
+    "label": "=SUM(1,1)",
+    "metric": "revenue",
+    "current": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "120.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    },
+    "prior": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "100.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2025-01-01",
+      "period_end": "2025-06-30",
+      "period_type": "flow"
+    }
+  },
+  "cross_document": {
+    "label": "QA revenue cross document",
+    "metric": "revenue",
+    "current": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "120.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    },
+    "prior": {
+      "document_id": "{{PDF_DOCUMENT_ID}}",
+      "page": 2,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "100.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2025-01-01",
+      "period_end": "2025-06-30",
+      "period_type": "flow"
+    }
+  },
+  "bad_period": {
+    "label": "QA revenue bad period",
+    "metric": "revenue",
+    "current": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "120.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    },
+    "prior": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "100.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    }
+  },
+  "currency_mismatch": {
+    "label": "QA revenue currency mismatch",
+    "metric": "revenue",
+    "current": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "120.00",
+      "unit": "元",
+      "currency": "USD",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    },
+    "prior": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "100.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2025-01-01",
+      "period_end": "2025-06-30",
+      "period_type": "flow"
+    }
+  },
+  "unknown_scope": {
+    "label": "QA revenue unknown scope",
+    "metric": "revenue",
+    "current": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "120.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "flow"
+    },
+    "prior": {
+      "document_id": "{{TXT_DOCUMENT_ID}}",
+      "page": 1,
+      "quote": "Revenue (CNY yuan) | 2026 H1: 120.00 | 2025 H1: 100.00",
+      "value": "100.00",
+      "unit": "元",
+      "currency": "CNY",
+      "entity": "QA SYNTHETIC INDUSTRIES",
+      "scope": "consolidated",
+      "period_start": "2025-01-01",
+      "period_end": "2025-06-30",
+      "period_type": "flow"
+    }
+  }
+}

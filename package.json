@@ -1,0 +1,15 @@
+{
+  "name": "dodo-filing-review-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local financial evidence review workspace with human confirmation and an Agent import interface.",
+  "type": "module",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "start": "node server/index.mjs",
+    "agent": "node scripts/agent.mjs",
+    "test": "node --test tests/domain-api*.mjs",
+    "check:release": "node scripts/check-release.mjs"
+  },
+  "dependencies": { "pdfjs-dist": "5.5.207" }
+}

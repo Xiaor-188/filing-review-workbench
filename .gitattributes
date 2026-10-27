@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.cmd -text
+*.png binary
+*.pdf binary
+tests/fixtures/qa-invalid-utf8.txt binary

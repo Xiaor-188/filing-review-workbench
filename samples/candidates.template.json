@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "expected_revision": 0,
+  "findings": [
+    {
+      "label": "营业收入",
+      "metric": "revenue",
+      "current": {
+        "document_id": "__DOCUMENT__",
+        "page": 1,
+        "quote": "营业收入：2025年度 1200000.00 元；2024年度 1000000.00 元。",
+        "value": "1200000.00",
+        "unit": "元",
+        "currency": "CNY",
+        "entity": "北辰研究用品有限公司（构造样例）",
+        "scope": "合并报表",
+        "period_start": "2025-01-01",
+        "period_end": "2025-12-31",
+        "period_type": "flow"
+      },
+      "prior": {
+        "document_id": "__DOCUMENT__",
+        "page": 1,
+        "quote": "营业收入：2025年度 1200000.00 元；2024年度 1000000.00 元。",
+        "value": "1000000.00",
+        "unit": "元",
+        "currency": "CNY",
+        "entity": "北辰研究用品有限公司（构造样例）",
+        "scope": "合并报表",
+        "period_start": "2024-01-01",
+        "period_end": "2024-12-31",
+        "period_type": "flow"
+      }
+    },
+    {
+      "label": "归母净利润",
+      "metric": "net_profit",
+      "current": {
+        "document_id": "__DOCUMENT__",
+        "page": 1,
+        "quote": "归母净利润：2025年度 180000.00 元；2024年度 150000.00 元。",
+        "value": "180000.00",
+        "unit": "元",
+        "currency": "CNY",
+        "entity": "北辰研究用品有限公司（构造样例）",
+        "scope": "合并报表",
+        "period_start": "2025-01-01",
+        "period_end": "2025-12-31",
+        "period_type": "flow"
+      },
+      "prior": {
+        "document_id": "__DOCUMENT__",
+        "page": 1,
+        "quote": "归母净利润：2025年度 180000.00 元；2024年度 150000.00 元。",
+        "value": "150000.00",
+        "unit": "元",
+        "currency": "CNY",
+        "entity": "北辰研究用品有限公司（构造样例）",
+        "scope": "合并报表",
+        "period_start": "2024-01-01",
+        "period_end": "2024-12-31",
+        "period_type": "flow"
+      }
+    },
+    {
+      "label": "经营活动现金流量净额",
+      "metric": "operating_cash_flow",
+      "current": {
+        "document_id": "__DOCUMENT__",
+        "page": 1,
+        "quote": "经营活动现金流量净额：2025年度 90000.00 元；2024年度 120000.00 元。",
+        "value": "90000.00",
+        "unit": "元",
+        "currency": "CNY",
+        "entity": "北辰研究用品有限公司（构造样例）",
+        "scope": "合并报表",
+        "period_start": "2025-01-01",
+        "period_end": "2025-12-31",
+        "period_type": "flow"
+      },
+      "prior": {
+        "document_id": "__DOCUMENT__",
+        "page": 1,
+        "quote": "经营活动现金流量净额：2025年度 90000.00 元；2024年度 120000.00 元。",
+        "value": "120000.00",
+        "unit": "元",
+        "currency": "CNY",
+        "entity": "北辰研究用品有限公司（构造样例）",
+        "scope": "合并报表",
+        "period_start": "2024-01-01",
+        "period_end": "2024-12-31",
+        "period_type": "flow"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "synthetic_acceptance_fixtures",
+  "real_issuer_data": false,
+  "pdf_table_page": 2,
+  "expected_decimal_results": {
+    "revenue_percent": "20.00",
+    "cash_flow_percent": "-25.00",
+    "revenue_difference": "20.00"
+  },
+  "files": [
+    {
+      "name": "qa-financials.txt",
+      "bytes": 826,
+      "sha256": "1118fe9f6ec568666e352e62c2610af1709b499606c236532c9d53df5e7480c6"
+    },
+    {
+      "name": "qa-financials.csv",
+      "bytes": 254,
+      "sha256": "7582c10603991750a941ec5e136ea355deefbb79c20edf6b3b6044e8382a759e"
+    },
+    {
+      "name": "qa-financials.pdf",
+      "bytes": 3121,
+      "sha256": "2be697d23755f379e91c0614a2a9dd52c1a348434190810f564daac8e43bf10e"
+    },
+    {
+      "name": "qa-image-only.pdf",
+      "bytes": 4290,
+      "sha256": "f9604b7a2aa14b4d00de3bf3d74b4034e831f6ef12abf1e508bc53307d24707e"
+    },
+    {
+      "name": "qa-invalid-utf8.txt",
+      "bytes": 20,
+      "sha256": "52030379424442ec7a2d2aa582bcf3edd6541d35b2b673e997a83d85376bc280"
+    },
+    {
+      "name": "qa-pdf-disguised.txt",
+      "bytes": 3121,
+      "sha256": "2be697d23755f379e91c0614a2a9dd52c1a348434190810f564daac8e43bf10e"
+    },
+    {
+      "name": "candidate-templates.json",
+      "bytes": 13870,
+      "sha256": "f06d832d77ac40845c420f580e9fd294059be8269d9e2dd070b61b059fb2ff64"
+    }
+  ]
+}
